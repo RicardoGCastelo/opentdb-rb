@@ -1,14 +1,16 @@
 # opentdb-rb
 Repositorio do Teste de Automação para QA com Cucumber, Capybara e Ruby
 
-## como executar o projeto 
+## Ferramentas utilizadas 
 
-* Importante ter o Ruby instalado (versão 2.5 ou superior)
+Visual Studio Code (https://code.visualstudio.com/)
+Console Emulator – Cmder (https://cmder.net/)
+Ruby (https://www.ruby-lang.org/pt/)
 
 ### Instalar o Bundler
-'
+
 gem install bundler
-'
+
 ### Instalar as dependências do Ruby (projeto)
 '
 bubdle install
