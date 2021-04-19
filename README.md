@@ -11,7 +11,7 @@ gem install bundler
 
 ### Instalar as dependências do Ruby (projeto)
 
-bubdle install
+bundle install
 
 ### Execução do primeiro cenário
 
