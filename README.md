@@ -12,9 +12,9 @@ Ruby (https://www.ruby-lang.org/pt/)
 gem install bundler
 
 ### Instalar as dependências do Ruby (projeto)
-'
+
 bubdle install
-'
+
 
 ### Executar localmente
 '
