@@ -3,9 +3,7 @@ Repositorio do Teste de Automação para QA com Cucumber, Capybara e Ruby
 
 ## Ferramentas utilizadas 
 
-Visual Studio Code (https://code.visualstudio.com/)\n
-Console Emulator – Cmder (https://cmder.net/)
-Ruby (https://www.ruby-lang.org/pt/)
+Visual Studio Code (https://code.visualstudio.com/) e Console Emulator – Cmder (https://cmder.net/)
 
 ### Instalar o Bundler
 
@@ -15,10 +13,18 @@ gem install bundler
 
 bubdle install
 
+### Execução do primeiro cenário
 
-### Executar localmente
-'
-Execução do primeiro cenário: bundle exec cucumber -t @questao1
-Execução do segundo e terceiro cenários: bundle exec cucumber -t @questao2_3
-Execução de todos os cenarios: bundle exec cucumber features/busca_questoes.feature
-'
+cucumber -t @questao1
+
+### Execução  do segundo e terceiro cenários
+
+cucumber -t @questao2_3
+
+### Execução de todos os cenários
+
+cucumber features/busca_questoes.feature
+
+### Report Execução
+
+Os relatórios de execuções são gravados na pasta log
