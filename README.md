@@ -3,7 +3,7 @@ Repositorio do Teste de Automação para QA com Cucumber, Capybara e Ruby
 
 ## Ferramentas utilizadas 
 
-Visual Studio Code (https://code.visualstudio.com/)
+Visual Studio Code (https://code.visualstudio.com/)\n
 Console Emulator – Cmder (https://cmder.net/)
 Ruby (https://www.ruby-lang.org/pt/)
 
