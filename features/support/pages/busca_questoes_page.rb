@@ -19,7 +19,5 @@ class BuscaQuestoes
 
     def ControlePagina?
         return page.has_css?("ul[class='pagination pagination-lg']")
-    end
-
-    #expect(page).not_to have_selector("ul[class='pagination pagination-lg']")
+    end    
 end

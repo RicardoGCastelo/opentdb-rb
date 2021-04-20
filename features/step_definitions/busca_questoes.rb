@@ -16,7 +16,7 @@ end
 
 Então('visualizo uma mensagem de erro com o texto {string}') do |mensagem|
   expect(@Busca_Questoes.MensagemErro.text).to eql mensagem
- end
+end
 
 Então('devo validar listagem de questoes com {int}') do |total_itens|
   
