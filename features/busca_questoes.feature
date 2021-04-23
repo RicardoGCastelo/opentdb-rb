@@ -11,7 +11,7 @@ Funcionalidade: Busca no Banco de Questões
 
         Exemplos:
         |texto_busca         | mensagem                |
-        |"Science: Computers"|"No questions found."    |
+        |"Science: Computers"|"No questions a found."    |
 
     @questao2_3
     Esquema do Cenário: Busca por questão existente
@@ -24,7 +24,7 @@ Funcionalidade: Busca no Banco de Questões
         
         Exemplos:
         |categoria  | texto_busca                                          |total_itens| sim_nao|
-        |"Category" | "Science: Computers"                                 |  25       | "Sim"  |
+        |"Category" | "Science: Computers"                                 |  24       | "Sim"  |
         |"Question" | "Which studio made Cowboy Bebop?"                    |   1       | "Não"  |
         |"Question" | "Who is the founder of Palantir?"                    |   1       | "Não"  |
         |"Question" | "Who is the lead singer of Arctic Monkeys?"          |   1       | "NÃO"  |
